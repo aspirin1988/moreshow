@@ -1,0 +1,551 @@
+/* НАЧАЛО ОБЩИЕ СТИЛИ */
+
+/* НАЧАЛО подключаем шрифт 'Bebas Neue': */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/bebas_neue/BebasNeue Regular.otf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/bebas_neue/BebasNeue Book.otf') format('truetype');
+  font-weight: normal;
+}
+/* КОНЕЦ подключаем шрифт 'Bebas Neue' */
+
+//НАЧАЛО объявляем переменные SASS
+$main-font: 'Bebas Neue', sans-serif;
+$main-color: rgb(222, 15, 9);
+//КОНЕЦ объявляем переменные SASS
+
+/* НАЧАЛО общие стили */
+body {
+  color: white;
+  font-family: $main-font;
+  font-size: 20px;
+  line-height: 1.2;
+  background: {
+    position: center center;
+    repeat: repeat-x;
+    size: cover;
+  };
+  min-height: 100vh;
+
+  @media (min-width: 1200px) and (min-height: 520px) {
+    min-height: 100vh;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: $main-font;
+}
+
+
+a {
+  color: inherit;
+  &:hover {
+    color: $main-color;
+    text-decoration: none;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.active>a {
+  font-weight: bold;
+}
+
+.header-and-breadcrumbs {
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    @media (min-width: 767px) {
+      float: left;
+    }
+  }
+  ul {
+    margin-top: 10px;
+    @media (min-width: 767px) {
+      float: right;
+    }
+  }
+  
+  .uk-breadcrumb {
+    &>li:nth-child(n+2):before {
+      content: "•";
+    }
+
+    li{
+      font-size: 20px;
+    }
+    a {
+      border-bottom: 1px white solid;
+      font-size: 20px;
+      line-height: 15px;
+      &:hover {
+        color: $main-color;
+        border-bottom: 1px $main-color solid;
+      }
+    }
+  }
+}
+
+
+/* КОНЕЦ общие стили */
+
+/* НАЧАЛО навбар перебиваем стили */
+.uk-navbar {
+  background: transparent;
+
+  .uk-navbar-nav {
+    margin-top: 10px;
+  }
+
+  .uk-navbar-nav>li>a {
+    font-size: 20px;
+    color: white;
+    font-family: $main-font;
+  }
+
+  .uk-navbar-nav>li.uk-open>a,
+  .uk-navbar-nav>li:hover>a,
+  .uk-navbar-nav>li>a:focus {
+    background: transparent;
+    color: $main-color;
+  }
+
+  .uk-navbar-nav>li + li::before {
+    content: "|";
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .uk-navbar-toggle {
+    color: white;
+  }
+
+  .uk-dropdown {
+    border-radius: 10px;
+
+    @media (min-width: 767px) {
+      &::before {
+        position: absolute;
+        top: -10px;
+        left: 30px;
+        display: inline-block;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+        border-left: 10px solid transparent;
+        content: '';
+      }
+
+      &::after {
+        position: absolute;
+        top: -9px;
+        left: 31px;
+        display: inline-block;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #ffffff;
+        border-left: 9px solid transparent;
+        content: '';
+      }
+    }
+
+    a {
+      font-size: 20px;
+    }
+
+    .uk-nav-navbar>li>a:focus,
+    .uk-nav-navbar>li>a:hover {
+      background: $main-color;
+    }
+  }
+
+}
+
+
+ul.uk-nav-sub {
+  padding-left: 25px;
+  background: rgba(255, 255, 255, 0.2);
+}
+/* КОНЕЦ навбар перебиваем стили */
+
+/* НАЧАЛО header */
+header {
+  padding-top: 10px;
+  line-height: 1.4;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+
+  @media (max-width: 959px) {
+    flex-flow: column;
+  }
+
+  .navbar-col {
+    flex: 1 0 auto;
+  }
+
+  .logo-and-slogan-col {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 959px) {
+      justify-content: center;
+    }
+    @media (max-width: 480px) {
+      flex-flow: column;
+    }
+
+    img.logo {
+      max-width: 195px;
+    }
+    p.slogan {
+      padding: 0 20px;
+      margin-bottom: 0;
+
+      @media (max-width: 480px) {
+        text-align: center;
+      }
+    }
+  }
+
+  .contacts-col {
+    font-weight: bold;
+    flex: 1 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 0 15px;
+    text-align: right;
+
+    p {
+      display: inline-block;
+      margin-bottom: 0;
+
+      a {
+        display: block;
+        position: relative;
+        
+        &.phone-number::before {
+          position: absolute;
+          content: url("../img/header_icon_phone.png");
+          left: -30px
+        }
+
+        &.email::before {
+          position: absolute;
+          content: url("../img/header_icon_mail.png");
+          left: -40px;
+        }
+      }
+    }
+  }
+
+}
+/* КОНЕЦ header */
+
+/* НАЧАЛО footer */
+footer {
+  padding: 10px 0 50px;
+
+  .social-icons {
+    margin: 0 auto;
+    max-width: 280px;
+    text-align: center;
+    a + a {
+      margin-left: 10px;
+    }
+  }
+}
+/* КОНЕЦ footer */
+
+/*----------------------
+---НАЧАЛО стр.Главная---
+-----------------------*/
+
+// эксклюзивный фон для главной страницы:
+body.index {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  //для главной страницы скрываем лого и слоган в хедере
+  //(большие лого и слоган будут в самой странице)
+  .logo-and-slogan-col {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+/* НАЧАЛО большие лого и слоган */
+.big-logo-and-slogan {
+  margin: 0 auto;
+  padding: 0 25px;
+  max-width: 500px;
+  font-size: 28px;
+  text-align: center;
+}
+/* КОНЕЦ большие лого и слоган */
+
+/* НАЧАЛО услуги на главной */
+.services-on-main {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-self: center;
+
+  @media (max-width: 480px) {
+    font-size: 24px;
+    align-items: center;
+  }
+
+  a {
+    width: 200px;
+    
+    @media (max-width: 480px) {
+      width: 150px;
+    }
+  }
+}
+
+/* КОНЕЦ услуги на главной */
+
+/*----------------------
+---КОНЕЦ стр.Главная---
+-----------------------*/
+
+/*----------------------
+---НАЧАЛО стр.Услуги (общий обзор определённого вида услуги)---
+-----------------------*/
+body.services {
+  height: auto;
+}
+
+.sub-services-list {
+  line-height: 1.5;
+  font-size: 24px;
+
+  li {
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+
+    a {
+      display: block;
+    }
+
+    a:hover {
+      color: $main-color;
+    }
+  }
+}
+
+.photos-and-captions {
+  text-align: center;
+  @media (min-width: 959px) {
+    border-left: 1px solid white;
+  }
+
+  a:hover p {
+    color: $main-color;
+    font-weight: bold;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .uk-grid>*>:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+/*----------------------
+---КОНЕЦ стр.Услуги (общий обзор определённого вида услуги)---
+-----------------------*/
+
+/*----------------------
+---НАЧАЛО стр.Услуги (обзор подуслуг)---
+-----------------------*/
+.photo-section {
+  .uk-slidenav-position {
+    margin-bottom: 15px;
+
+    img {
+      border-radius: 10px;
+    }
+
+    .uk-slideshow {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+.services .text-section {
+  text-align: justify;
+
+  p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  p.price {
+    font-family: $main-font;
+    text-align: right;
+    font-size: 20px;
+  }
+}
+/*----------------------
+---КОНЕЦ стр.Услуги (обзор подуслуг)---
+-----------------------*/
+
+/*----------------------
+---НАЧАЛО стр.Наша работа---
+-----------------------*/
+body.our_work {
+  .text-section {
+    text-align: right;
+    font-size: 36px;
+    padding-right: 15px;
+    line-height: 1.2;
+    a {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    @media (max-width: 767px) {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  .uk-close-alt:after {
+    color: black;
+  }
+
+  .uk-slider {
+    a {
+       display: block;
+    }
+  }
+
+  .photo-slider {
+    border-left: 1px solid white;
+    @media (min-width: 960px) {
+      padding-left: 60px;
+    }
+    img {
+      border-radius: 10px;
+      width: 100%;
+    }
+    @media (min-width: 960px) {
+      .data-uk-slider {
+        position: relative;
+        & > .uk-slidenav {
+          display: block;
+          position: absolute;
+          &::before {
+            content: "";
+          }
+          img {
+            height: auto;
+            width: auto;
+          }
+          &.uk-slidenav-previous {
+            left: -60px;
+          }
+          &.uk-slidenav-next {
+            right: -50px;
+          }
+
+        }
+      }
+    }
+    @media (max-width: 960px) {
+      .data-uk-slider > .uk-slidenav img {
+        display: none;
+      }
+    }
+  }
+}
+
+/*----------------------
+---КОНЕЦ стр.Наша работа---
+-----------------------*/
+
+body.contacts {
+  .text-section {
+    text-align: right;
+    font-size: 36px;
+    padding-right: 15px;
+    line-height: 1.2;
+    a {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    @media (max-width: 767px) {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  .contacts-section {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    border-left: 1px solid white;
+    @media (max-width: 767px) {
+      text-align: center;
+      border-left: none;
+    }
+    h3 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 0;
+      @media (max-width: 767px) {
+        margin-top: 25px;
+      }
+    }
+
+    img.logo {
+      max-width: 140px;
+      margin-left: 5%;
+    }
+
+    .address::before {
+      content: url("../img/contacts/icon_location-pin.png");
+      margin-right: 13px;
+      margin-left: 5px;
+    }
+    .phone-number::before {
+      content: url("../img/contacts/icon_mobile-phone.png");
+      margin-right: 15px;
+      margin-left: 5px;
+    }
+    .email::before {
+      content: url("../img/contacts/icon_mail.png");
+      margin-right: 10px;
+    }
+    .work-time::before {
+      content: url("../img/contacts/icon_clock.png");
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/* НАЧАЛО ОБЩИЕ СТИЛИ */
+/* НАЧАЛО подключаем шрифт 'Bebas Neue': */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/bebas_neue/BebasNeue Regular.otf") format("truetype");
+  font-weight: bold; }
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/bebas_neue/BebasNeue Book.otf") format("truetype");
+  font-weight: normal; }
+/* КОНЕЦ подключаем шрифт 'Bebas Neue' */
+/* НАЧАЛО общие стили */
+body {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  min-height: 100vh; }
+  @media (min-width: 1200px) and (min-height: 520px) {
+    body {
+      min-height: 100vh; } }
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: #de0f09;
+    text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+li.active > a {
+  font-weight: bold; }
+
+.header-and-breadcrumbs h1 {
+  font-weight: bold;
+  text-align: center; }
+  @media (min-width: 767px) {
+    .header-and-breadcrumbs h1 {
+      float: left; } }
+.header-and-breadcrumbs ul {
+  margin-top: 10px; }
+  @media (min-width: 767px) {
+    .header-and-breadcrumbs ul {
+      float: right; } }
+.header-and-breadcrumbs .uk-breadcrumb > li:nth-child(n+2):before {
+  content: "•"; }
+.header-and-breadcrumbs .uk-breadcrumb li {
+  font-size: 20px; }
+.header-and-breadcrumbs .uk-breadcrumb a {
+  border-bottom: 1px white solid;
+  font-size: 20px;
+  line-height: 15px; }
+  .header-and-breadcrumbs .uk-breadcrumb a:hover {
+    color: #de0f09;
+    border-bottom: 1px #de0f09 solid; }
+
+/* КОНЕЦ общие стили */
+/* НАЧАЛО навбар перебиваем стили */
+.uk-navbar {
+  background: transparent; }
+  .uk-navbar .uk-navbar-nav {
+    margin-top: 10px; }
+  .uk-navbar .uk-navbar-nav > li > a {
+    font-size: 20px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif; }
+  .uk-navbar .uk-navbar-nav > li.uk-open > a,
+  .uk-navbar .uk-navbar-nav > li:hover > a,
+  .uk-navbar .uk-navbar-nav > li > a:focus {
+    background: transparent;
+    color: #de0f09; }
+  .uk-navbar .uk-navbar-nav > li + li::before {
+    content: "|";
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px; }
+  .uk-navbar .uk-navbar-toggle {
+    color: white; }
+  .uk-navbar .uk-dropdown {
+    border-radius: 10px; }
+    @media (min-width: 767px) {
+      .uk-navbar .uk-dropdown::before {
+        position: absolute;
+        top: -10px;
+        left: 30px;
+        display: inline-block;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+        border-left: 10px solid transparent;
+        content: ''; }
+      .uk-navbar .uk-dropdown::after {
+        position: absolute;
+        top: -9px;
+        left: 31px;
+        display: inline-block;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #ffffff;
+        border-left: 9px solid transparent;
+        content: ''; } }
+    .uk-navbar .uk-dropdown a {
+      font-size: 20px; }
+    .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:focus,
+    .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:hover {
+      background: #de0f09; }
+
+ul.uk-nav-sub {
+  padding-left: 25px;
+  background: rgba(255, 255, 255, 0.2); }
+
+/* КОНЕЦ навбар перебиваем стили */
+/* НАЧАЛО header */
+header {
+  padding-top: 10px;
+  line-height: 1.4;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between; }
+  @media (max-width: 959px) {
+    header {
+      flex-flow: column; } }
+  header .navbar-col {
+    flex: 1 0 auto; }
+  header .logo-and-slogan-col {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center; }
+    @media (max-width: 959px) {
+      header .logo-and-slogan-col {
+        justify-content: center; } }
+    @media (max-width: 480px) {
+      header .logo-and-slogan-col {
+        flex-flow: column; } }
+    header .logo-and-slogan-col img.logo {
+      max-width: 195px; }
+    header .logo-and-slogan-col p.slogan {
+      padding: 0 20px;
+      margin-bottom: 0; }
+      @media (max-width: 480px) {
+        header .logo-and-slogan-col p.slogan {
+          text-align: center; } }
+  header .contacts-col {
+    font-weight: bold;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
+    text-align: right; }
+    header .contacts-col p {
+      display: inline-block;
+      margin-bottom: 0; }
+      header .contacts-col p a {
+        display: block;
+        position: relative; }
+        header .contacts-col p a.phone-number::before {
+          position: absolute;
+          content: url("../img/header_icon_phone.png");
+          left: -30px; }
+        header .contacts-col p a.email::before {
+          position: absolute;
+          content: url("../img/header_icon_mail.png");
+          left: -40px; }
+
+/* КОНЕЦ header */
+/* НАЧАЛО footer */
+footer {
+  padding: 10px 0 50px; }
+  footer .social-icons {
+    margin: 0 auto;
+    max-width: 280px;
+    text-align: center; }
+    footer .social-icons a + a {
+      margin-left: 10px; }
+
+/* КОНЕЦ footer */
+/*----------------------
+---НАЧАЛО стр.Главная---
+-----------------------*/
+body.index {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between; }
+  body.index .logo-and-slogan-col {
+    opacity: 0;
+    height: 0; }
+
+/* НАЧАЛО большие лого и слоган */
+.big-logo-and-slogan {
+  margin: 0 auto;
+  padding: 0 25px;
+  max-width: 500px;
+  font-size: 28px;
+  text-align: center; }
+
+/* КОНЕЦ большие лого и слоган */
+/* НАЧАЛО услуги на главной */
+.services-on-main {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-self: center; }
+  @media (max-width: 480px) {
+    .services-on-main {
+      font-size: 24px;
+      align-items: center; } }
+  .services-on-main a {
+    width: 200px; }
+    @media (max-width: 480px) {
+      .services-on-main a {
+        width: 150px; } }
+
+/* КОНЕЦ услуги на главной */
+/*----------------------
+---КОНЕЦ стр.Главная---
+-----------------------*/
+/*----------------------
+---НАЧАЛО стр.Услуги (общий обзор определённого вида услуги)---
+-----------------------*/
+body.services {
+  height: auto; }
+
+.sub-services-list {
+  line-height: 1.5;
+  font-size: 24px; }
+  @media (max-width: 767px) {
+    .sub-services-list li {
+      text-align: center; } }
+  .sub-services-list li a {
+    display: block; }
+  .sub-services-list li a:hover {
+    color: #de0f09; }
+
+.photos-and-captions {
+  text-align: center; }
+  @media (min-width: 959px) {
+    .photos-and-captions {
+      border-left: 1px solid white; } }
+  .photos-and-captions a:hover p {
+    color: #de0f09;
+    font-weight: bold; }
+  .photos-and-captions img {
+    width: 100%;
+    border-radius: 10px; }
+  .photos-and-captions .uk-grid > * > :last-child {
+    margin-bottom: 15px; }
+
+/*----------------------
+---КОНЕЦ стр.Услуги (общий обзор определённого вида услуги)---
+-----------------------*/
+/*----------------------
+---НАЧАЛО стр.Услуги (обзор подуслуг)---
+-----------------------*/
+.photo-section .uk-slidenav-position {
+  margin-bottom: 15px; }
+  .photo-section .uk-slidenav-position img {
+    border-radius: 10px; }
+  .photo-section .uk-slidenav-position .uk-slideshow {
+    width: 100%;
+    border-radius: 10px; }
+
+.services .text-section {
+  text-align: justify; }
+  .services .text-section p {
+    font-size: 16px;
+    font-family: Arial, sans-serif; }
+  .services .text-section p.price {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: right;
+    font-size: 20px; }
+
+/*----------------------
+---КОНЕЦ стр.Услуги (обзор подуслуг)---
+-----------------------*/
+/*----------------------
+---НАЧАЛО стр.Наша работа---
+-----------------------*/
+body.our_work .text-section {
+  text-align: right;
+  font-size: 36px;
+  padding-right: 15px;
+  line-height: 1.2; }
+  body.our_work .text-section a {
+    font-size: 28px;
+    font-weight: bold; }
+  @media (max-width: 767px) {
+    body.our_work .text-section {
+      font-size: 24px;
+      text-align: center; } }
+body.our_work .uk-close-alt:after {
+  color: black; }
+body.our_work .uk-slider a {
+  display: block; }
+body.our_work .photo-slider {
+  border-left: 1px solid white; }
+  @media (min-width: 960px) {
+    body.our_work .photo-slider {
+      padding-left: 60px; } }
+  body.our_work .photo-slider img {
+    border-radius: 10px;
+    width: 100%; }
+  @media (min-width: 960px) {
+    body.our_work .photo-slider .data-uk-slider {
+      position: relative; }
+      body.our_work .photo-slider .data-uk-slider > .uk-slidenav {
+        display: block;
+        position: absolute; }
+        body.our_work .photo-slider .data-uk-slider > .uk-slidenav::before {
+          content: ""; }
+        body.our_work .photo-slider .data-uk-slider > .uk-slidenav img {
+          height: auto;
+          width: auto; }
+        body.our_work .photo-slider .data-uk-slider > .uk-slidenav.uk-slidenav-previous {
+          left: -60px; }
+        body.our_work .photo-slider .data-uk-slider > .uk-slidenav.uk-slidenav-next {
+          right: -50px; } }
+  @media (max-width: 960px) {
+    body.our_work .photo-slider .data-uk-slider > .uk-slidenav img {
+      display: none; } }
+
+/*----------------------
+---КОНЕЦ стр.Наша работа---
+-----------------------*/
+body.contacts .text-section {
+  text-align: right;
+  font-size: 36px;
+  padding-right: 15px;
+  line-height: 1.2; }
+  body.contacts .text-section a {
+    font-size: 28px;
+    font-weight: bold; }
+  @media (max-width: 767px) {
+    body.contacts .text-section {
+      font-size: 24px;
+      text-align: center; } }
+body.contacts .contacts-section {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  border-left: 1px solid white; }
+  @media (max-width: 767px) {
+    body.contacts .contacts-section {
+      text-align: center;
+      border-left: none; } }
+  body.contacts .contacts-section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      body.contacts .contacts-section h3 {
+        margin-top: 25px; } }
+  body.contacts .contacts-section img.logo {
+    max-width: 140px;
+    margin-left: 5%; }
+  body.contacts .contacts-section .address::before {
+    content: url("../img/contacts/icon_location-pin.png");
+    margin-right: 13px;
+    margin-left: 5px; }
+  body.contacts .contacts-section .phone-number::before {
+    content: url("../img/contacts/icon_mobile-phone.png");
+    margin-right: 15px;
+    margin-left: 5px; }
+  body.contacts .contacts-section .email::before {
+    content: url("../img/contacts/icon_mail.png");
+    margin-right: 10px; }
+  body.contacts .contacts-section .work-time::before {
+    content: url("../img/contacts/icon_clock.png");
+    margin-right: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

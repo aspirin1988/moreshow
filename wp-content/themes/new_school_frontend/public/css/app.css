@@ -1,0 +1,972 @@
+body{
+    background: url(../img/background.png) repeat;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/HelveticaNeueCyr-Roman.otf);
+}
+
+@font-face {
+    font-family: Panton;
+    src: url(../fonts/Panton-ExtraBold.otf);
+}
+
+header{
+    background: url(../img/header_background.png);
+    background-size: cover;
+    padding-bottom: 3%;
+}
+
+header .text-header{
+    background-color: rgba(12, 86, 146,0.8);
+}
+
+header .text-header h4{
+    font-size: 24px;
+    font-family: Helvetica;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+header .text-header h3{
+    font-size: 48px;
+    margin-top: 5px;
+    font-family: Panton;
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.nav-header{
+    background: white;
+    padding-left: 0;
+}
+
+.nav-header a{
+    font-size: 18px !important;
+    font-family: Helvetica !important;
+    color: black;
+    background: white;
+}
+
+.nav-header li.uk-active  a{
+    background: white;
+    color: rgb(3, 121, 180);
+}
+
+.contacts-header{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contacts-header p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contacts-header p,
+.contacts-header a{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: right;
+}
+
+.main-body{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.uk-dotnav{
+    padding-left: 30px;
+}
+
+.slider-custom-caption h3{
+    font-size: 36px;
+    font-family: Panton;
+    text-shadow: 0 0 1px white;
+    color: rgb(3, 121, 180);
+    line-height: 1.2;
+}
+
+.slider-custom-caption p{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(254, 254, 255);
+    line-height: 1.2;
+    text-align: right;
+}
+
+.director-body{
+    background: #e4f0f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.director-body .image-director{
+    position: relative;
+}
+
+.director-body .director-caption{
+    position: absolute;
+    background: white;
+    left: 14%;
+    padding: 5px;
+    bottom: -65px;
+    font-size: 18px;
+    font-family: Panton;
+    color: black;
+    line-height: 1.2;
+    text-align: left;
+    box-shadow: 3px 3px 6px black;
+}
+
+.director-body .director-caption p{
+    margin-bottom: 5px;
+    color: rgb(5, 7, 98);
+}
+
+.director-body .director-content h3{
+    font-size: 30px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.director-body .director-content figure{
+    height: 2px;
+    width: 30%;
+    background: black;
+}
+
+.director-body .director-content article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.news-body,
+.parents-body{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.success-mail-text {
+    color: #35c52e;
+    padding: 30px 30px;
+    display: none;
+}
+
+.news-body h3,
+.reviews-body h3,
+.parents-body h3{
+    font-size: 30px;
+    font-family: Panton;
+    color: rgb(29, 127, 181);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.news-body .news-single{
+    background: url(../img/tetra_background.png) repeat-y;
+    padding: 5px 25px 15px;
+    text-align: center;
+    background-size: contain;
+}
+
+.news-body .news-single h4{
+    font-size: 30px;
+    font-family: Panton;
+    color: rgb(5, 7, 98);
+    font-weight: bold;
+    line-height: 1.2;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-body .news-single p>i{
+    margin-right: 5px;
+}
+
+.news-body .news-single p{
+    font-size: 16px;
+    text-align: left;
+    font-family: HelveticaNeueCyr;
+    color: rgb(31, 33, 111);
+    line-height: 1.2;
+}
+
+.news-body .news-single article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(3, 121, 180);
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.news-body .news-single .news-link{
+    text-align: right;
+}
+
+.news-body .news-single .news-link>a{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: rgb(31, 33, 111);
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.news-all{
+    font-size: 18px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    border: 1px solid black;
+    padding: 15px 10px;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.news-body .news-line{
+    margin: 15px auto 0;
+    height: 2px;
+    width: 10%;
+    background: black;
+}
+
+.sticky-custom{
+    width: 100% !important;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.6);
+}
+
+.parents-body{
+    padding-top: 5px;
+}
+
+.parents-body .parents-block{
+    background: #fff569;
+}
+
+.parents-body .parents-block .uk-width-large-1-3:first-child>img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 386px;
+}
+
+.parents-info-red{
+    font-size: 19px;
+    font-family: Panton;
+    color: rgb(193, 25, 25) !important;
+    line-height: 1.2;
+    text-align: left !important;
+}
+
+.parents-info-blue{
+    font-size: 19px;
+    font-family: Panton;
+    text-align: left !important;
+}
+
+.text-parents{
+    display: flex;
+    flex-flow: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-reviews{
+    padding: 10px;
+}
+
+.block-reviews .reviews-image-block{
+    background-image: url(../img/director.png);
+    background-size: cover;
+    padding-bottom: 80%;
+    width: 80%;
+}
+
+.block-reviews p{
+    font-size: 19px;
+    font-family: Helvetica;
+    color: black;
+    line-height: 1.2;
+}
+
+.block-reviews article{
+    text-align: center;
+    width: 80%;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: black;
+}
+
+.reviews-body .uk-slidenav{
+    color: rgba(0,0,0,0.9)
+}
+
+footer{
+    background: #2682b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer .logo-footer{
+    text-align: center;
+}
+
+footer h4,
+footer h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer h4{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: rgb(254, 255, 255);
+    line-height: 1.2;
+}
+
+footer h3{
+    font-size: 30px;
+    font-family: Panton;
+    color: rgb(254, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+footer .contacts-item,
+footer .contacts-item a,
+.contacts-page .contacts-item,
+.contacts-page a{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(254, 254, 254);
+    line-height: 1.2;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.contacts-page .contacts-item,
+.contacts-page a{
+    color: black;
+}
+
+footer .contacts-item ul,
+.contacts-page .contacts-item ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.mobile-nav{
+    color: white;
+    font-size: 35px;
+}
+
+.mobile-nav-menu  .uk-active a{
+    background: white;
+    color: #333;
+}
+
+.mobile-nav-menu a{
+    text-align: right;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(254, 254, 254);
+    line-height: 1.2;
+}
+
+.head-text-custom{
+    text-align: center;
+    font-size: 30px;
+    font-family: Panton;
+    color: rgb(3, 121, 180);
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.gallery-block h4{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.gallery-block .uk-slidenav-previous{
+    left: -50px;
+}
+
+.gallery-block .uk-slidenav-next{
+    right: -50px;
+}
+
+.gallery-block .uk-dotnav{
+    margin-top: 0;
+}
+
+.gallery-block .uk-slidenav{
+    color: rgb(3, 121, 180);
+    display: block;
+}
+
+.gallery-block article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    padding: 10px 30px;
+}
+
+.gallery-block-single{
+    background: #aaa;
+    background-size: cover;
+    padding-bottom: 80%;
+    font-size: 25px;
+    color: white;
+}
+
+.submenu-gallery li:last-child{
+    margin-bottom: 20px;
+}
+
+.submenu-gallery a{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(41, 82, 106);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.submenu-gallery .uk-active a{
+    background: #e4f0f7;
+    color: black;
+}
+
+.gallery-glory-block{
+    margin-bottom: 20px;
+}
+
+.gallery-glory-block .gallery-block-single{
+    padding-bottom: 100%;
+}
+
+.glory, .glory-name{
+    font-size: 16px;
+    font-family: Panton;
+    color: rgb(5, 7, 98);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.glory-name{
+    color: black;
+}
+
+.article-ent,
+.olympic-article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.olympic-article + img{
+    margin-bottom: 20px !important;
+}
+
+.ent-text{
+    font-size: 18px;
+    font-family: Panton;
+    color: rgb(3, 121, 180);
+    line-height: 1.556;
+    text-align: left;
+}
+
+.olympic-title{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.map{
+    padding-bottom: 20px;
+}
+
+.news-block-image {
+    background: #ccc;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.news-block{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.news-block-text{
+    text-align: right;
+}
+
+.news-block-text h4{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(12, 86, 146);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.news-block-text p{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(12, 86, 146);
+    line-height: 1.2;
+    margin-top: 0;
+    text-align: left;
+}
+
+.news-block-text article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.news-block-text a{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.others-news h4,
+.single-new-block h4{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(12, 86, 146);
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.others-news figure{
+    margin-top: 5px;
+    width: 100%;
+    background: rgb(12, 86, 146);
+    height: 2px;
+}
+
+.other-new-block h4{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.other-new-block p,
+.single-new-block p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(12, 86, 146);
+    line-height: 1.2;
+}
+
+.other-new-block .other-new-image{
+    background: #ddd;
+    width: 100%;
+    padding-bottom: 80%;
+    margin-bottom: 10px;
+}
+
+.other-new-block article,
+.single-new-block article{
+    font-size: 18px;
+    font-family: HelveticaNeueCyr;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.single-new-image{
+    background: #ddd;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 50%;
+}
+
+.about-title{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.about-figure{
+    width: 30%;
+    background: black;
+    height: 2px;
+}
+
+.about-article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.about-director p{
+    font-size: 14px;
+    font-family: Panton;
+    color: rgb(5, 7, 98);
+    line-height: 1.2;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.about-director p:last-child{
+    color: black;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+
+.title-about-normal{
+    text-transform: none;
+    font-size: 18px;
+}
+
+.title-margin{
+    margin-bottom: 10px;
+    margin-top: 10px !important;
+}
+
+.article-akmar{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.article-akmar .img-akmar{
+    float: right;
+    width: 30%;
+    padding-bottom: 30%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background: #ddd;
+}
+
+.berkut-title{
+    font-size: 18px !important;
+    font-family: Panton !important;
+    color: rgb(3, 121, 180) !important;
+    line-height: 2;
+    padding-left: 0 !important;
+    margin-top: 10px;
+}
+
+.berkut-article{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.berkut-article h4{
+    font-size: 18px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.block-language{
+    text-align: right;
+}
+
+.block-language h4{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.block-language figure{
+    width: 30%;
+    background: black;
+    height: 2px;
+}
+
+.block-language article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.block-language a{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.block-language .block-language-image{
+    background: #ddd;
+    width: 100%;
+    padding-bottom: 40%;
+    margin-bottom: 10px;
+}
+
+.we-block{
+    text-align: center;
+}
+
+.we-block a{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.556;
+    background: white;
+    padding: 0 25px;
+    border: 1px solid rgb(42, 106, 158);
+    display: inline-block;
+    margin-bottom: 10px !important;
+}
+
+.we-title{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(42, 106, 158);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.we-image{
+    background: #ddd;
+    width: 100%;
+    padding-bottom: 90%;
+    margin-bottom: 15px;
+}
+
+.reviews-block{
+    background: url(../img/reviews-body.png);
+    width: 100%;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews-block .reviews-block-text{
+    background-color: rgba(255, 245, 105,0.4);
+    padding: 5% 10%;
+}
+
+.reviews-block .reviews-block-text article,
+.review-name{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(41, 41, 41);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.review-name figure{
+    background: black;
+    height: 2px;
+    width: 7%;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-reviews p{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.556;
+    margin-bottom: 0;
+}
+
+.form-reviews input[type="text"],
+.form-reviews input[type="email"],
+.form-reviews textarea{
+    width: 100%;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    line-height: 1.556;
+}
+
+.form-reviews input[type="submit"]{
+    border: 1px solid black;
+    background: transparent;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.556;
+    padding: 5px 15px;
+}
+
+.form-reviews textarea{
+    resize: none;
+}
+
+.parents-article p{
+    font-size: 24px;
+    font-family: Panton;
+    color: rgb(3, 121, 180);
+    line-height: 1.167;
+    text-align: left;
+}
+
+.parents-article article{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.form-parents{
+    background: white;
+    border: 1px solid rgb(3, 121, 180);
+    margin-left: 0 !important;
+    padding-top: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form-parents p{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.556;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-parents input[type="text"]{
+    border: 1px solid black;
+    padding-left: 5px;
+    background: white;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    line-height: 1.556;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.form-parents input[type="submit"]{
+    background: #2682b7;
+    border: 0;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: white;
+    line-height: 1.556;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .slider-custom-caption h3,
+    .slider-custom-caption p{
+        display: none;
+    }
+    .director-content{
+        margin-top: 40px;
+    }
+    .reviews-body .reviews-background h3{
+        display: block;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .reviews-body .reviews-background{
+        padding-bottom: 20px;
+    }
+    .reviews-body .reviews-background article,
+    .reviews-body .reviews-background article.name-reviews {
+        font-size: 11px;
+    }
+    .reviews-body .reviews-background .link-reviews a{
+        font-size: 9px;
+    }
+    .reviews-body .reviews-background .link-reviews{
+        margin-bottom: 10px;
+    }
+    .reviews-body .reviews-background article:before,
+    .reviews-body .reviews-background article:after{
+        font-size: 15px;
+    }
+    header{
+        padding-bottom: 0;
+    }
+    header .uk-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .text-header{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .logo-col{
+        text-align: center;
+    }
+    .gallery-block .uk-slidenav-previous{
+        left: 0;
+    }
+
+    .gallery-block .uk-slidenav-next{
+        right: 0;
+    }
+}
+
+@media (max-width: 900px){
+    .slider-custom-caption{
+        padding-bottom: 20px;
+    }
+}

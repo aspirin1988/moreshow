@@ -1,0 +1,352 @@
+[Mon Jun 06 11:38:49.596341 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596382 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP Stack trace:, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596391 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596400 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596408 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596415 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596422 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/page-index.php:38, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596436 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596443 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.596450 2016] [:error] [pid 24361] [client 127.0.0.1:49563] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:38:49.739685 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739704 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP Stack trace:, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739713 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739719 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739724 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739731 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739740 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/404.php:64, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739748 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739756 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.739766 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823636 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823661 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP Stack trace:, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823668 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823673 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823678 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823682 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823687 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/404.php:64, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823691 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823695 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:38:49.823699 2016] [:error] [pid 9976] [client 127.0.0.1:49567] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.441607 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441651 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP Stack trace:, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441665 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441678 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441685 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441691 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441696 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/page-index.php:38, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441702 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441716 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.441721 2016] [:error] [pid 10053] [client 127.0.0.1:49572] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:10.583901 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583935 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP Stack trace:, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583947 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583956 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583964 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583972 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583979 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/404.php:64, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583987 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.583994 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.584001 2016] [:error] [pid 24863] [client 127.0.0.1:49574] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.658961 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.658980 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP Stack trace:, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.658991 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659000 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659007 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659012 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659017 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/404.php:64, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659022 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659033 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:10.659038 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.289093 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289128 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP Stack trace:, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289144 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289154 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289161 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289166 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289171 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/page-index.php:38, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289176 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289181 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.289185 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:39:11.409110 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409140 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP Stack trace:, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409152 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409161 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409169 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409177 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409185 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/404.php:64, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409913 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409929 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.409937 2016] [:error] [pid 24361] [client 127.0.0.1:49576] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494132 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/footer.php on line 7, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494165 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP Stack trace:, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494174 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494180 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494185 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494189 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494194 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   5. get_footer() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/404.php:64, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494199 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:84, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494204 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:39:11.494208 2016] [:error] [pid 24734] [client 127.0.0.1:49573] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/
+[Mon Jun 06 11:43:12.697562 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP Fatal error:  Call to undefined function get_field() in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/header.php on line 40, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697594 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP Stack trace:, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697603 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697609 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697615 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697620 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   4. include() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:75, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697633 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   5. get_header() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/page-index.php:15, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697638 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   6. locate_template() /home/serg/site/new_school_frontend/wp-includes/general-template.php:45, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697642 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   7. load_template() /home/serg/site/new_school_frontend/wp-includes/template.php:531, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 11:43:12.697647 2016] [:error] [pid 10053] [client 127.0.0.1:49587] PHP   8. require_once() /home/serg/site/new_school_frontend/wp-includes/template.php:572, referer: http://new_school_frontend.tes/wp-admin/themes.php
+[Mon Jun 06 12:51:33.163591 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP Parse error:  syntax error, unexpected '}' in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php(192) : runtime-created function on line 9
+[Mon Jun 06 12:51:33.163628 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP Stack trace:
+[Mon Jun 06 12:51:33.163639 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:51:33.163647 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:51:33.163654 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:13
+[Mon Jun 06 12:51:33.163660 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   4. require_once() /home/serg/site/new_school_frontend/wp-load.php:37
+[Mon Jun 06 12:51:33.163665 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   5. require_once() /home/serg/site/new_school_frontend/wp-config.php:89
+[Mon Jun 06 12:51:33.163670 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   6. include() /home/serg/site/new_school_frontend/wp-settings.php:369
+[Mon Jun 06 12:51:33.163676 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   7. create_function() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php:192
+[Mon Jun 06 12:51:33.187427 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/serg/site/new_school_frontend/wp-includes/plugin.php on line 235
+[Mon Jun 06 12:51:33.187451 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP Stack trace:
+[Mon Jun 06 12:51:33.187459 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:51:33.187464 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:51:33.187469 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 12:51:33.187474 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   4. get_archive_template() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:62
+[Mon Jun 06 12:51:33.187479 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   5. get_query_template() /home/serg/site/new_school_frontend/wp-includes/template.php:103
+[Mon Jun 06 12:51:33.187484 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   6. apply_filters() /home/serg/site/new_school_frontend/wp-includes/template.php:45
+[Mon Jun 06 12:51:33.187489 2016] [:error] [pid 27965] [client 127.0.0.1:50265] PHP   7. call_user_func_array:{/home/serg/site/new_school_frontend/wp-includes/plugin.php:235}() /home/serg/site/new_school_frontend/wp-includes/plugin.php:235
+[Mon Jun 06 12:51:43.505405 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP Parse error:  syntax error, unexpected '}' in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php(192) : runtime-created function on line 9
+[Mon Jun 06 12:51:43.505440 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP Stack trace:
+[Mon Jun 06 12:51:43.505448 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:51:43.505464 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:51:43.505468 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:13
+[Mon Jun 06 12:51:43.505473 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   4. require_once() /home/serg/site/new_school_frontend/wp-load.php:37
+[Mon Jun 06 12:51:43.505477 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   5. require_once() /home/serg/site/new_school_frontend/wp-config.php:89
+[Mon Jun 06 12:51:43.505481 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   6. include() /home/serg/site/new_school_frontend/wp-settings.php:369
+[Mon Jun 06 12:51:43.505486 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   7. create_function() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php:192
+[Mon Jun 06 12:51:43.527206 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/serg/site/new_school_frontend/wp-includes/plugin.php on line 235
+[Mon Jun 06 12:51:43.527230 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP Stack trace:
+[Mon Jun 06 12:51:43.527237 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:51:43.527242 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:51:43.527246 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 12:51:43.527250 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   4. get_archive_template() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:62
+[Mon Jun 06 12:51:43.527254 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   5. get_query_template() /home/serg/site/new_school_frontend/wp-includes/template.php:103
+[Mon Jun 06 12:51:43.527258 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   6. apply_filters() /home/serg/site/new_school_frontend/wp-includes/template.php:45
+[Mon Jun 06 12:51:43.527262 2016] [:error] [pid 27684] [client 127.0.0.1:50274] PHP   7. call_user_func_array:{/home/serg/site/new_school_frontend/wp-includes/plugin.php:235}() /home/serg/site/new_school_frontend/wp-includes/plugin.php:235
+[Mon Jun 06 12:51:44.867588 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP Parse error:  syntax error, unexpected '}' in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php(192) : runtime-created function on line 9, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867626 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP Stack trace:, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867634 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP   1. {main}() /home/serg/site/new_school_frontend/wp-admin/admin-ajax.php:0, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867651 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP   2. require_once() /home/serg/site/new_school_frontend/wp-admin/admin-ajax.php:22, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867667 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-load.php:37, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867672 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP   4. require_once() /home/serg/site/new_school_frontend/wp-config.php:89, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867677 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP   5. include() /home/serg/site/new_school_frontend/wp-settings.php:369, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:51:44.867683 2016] [:error] [pid 27919] [client 127.0.0.1:50275] PHP   6. create_function() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php:192, referer: http://new_school_frontend.tes/wp-admin/post.php?post=11&action=edit
+[Mon Jun 06 12:52:06.363311 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP Parse error:  syntax error, unexpected '}' in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php(192) : runtime-created function on line 9
+[Mon Jun 06 12:52:06.363347 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP Stack trace:
+[Mon Jun 06 12:52:06.363354 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:52:06.363370 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:52:06.363375 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:13
+[Mon Jun 06 12:52:06.363380 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   4. require_once() /home/serg/site/new_school_frontend/wp-load.php:37
+[Mon Jun 06 12:52:06.363384 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   5. require_once() /home/serg/site/new_school_frontend/wp-config.php:89
+[Mon Jun 06 12:52:06.363389 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   6. include() /home/serg/site/new_school_frontend/wp-settings.php:369
+[Mon Jun 06 12:52:06.363397 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   7. create_function() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php:192
+[Mon Jun 06 12:52:06.386727 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/serg/site/new_school_frontend/wp-includes/plugin.php on line 235
+[Mon Jun 06 12:52:06.386752 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP Stack trace:
+[Mon Jun 06 12:52:06.386758 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:52:06.386763 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:52:06.386768 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 12:52:06.386772 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   4. get_archive_template() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:62
+[Mon Jun 06 12:52:06.386777 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   5. get_query_template() /home/serg/site/new_school_frontend/wp-includes/template.php:103
+[Mon Jun 06 12:52:06.386781 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   6. apply_filters() /home/serg/site/new_school_frontend/wp-includes/template.php:45
+[Mon Jun 06 12:52:06.386786 2016] [:error] [pid 27989] [client 127.0.0.1:50282] PHP   7. call_user_func_array:{/home/serg/site/new_school_frontend/wp-includes/plugin.php:235}() /home/serg/site/new_school_frontend/wp-includes/plugin.php:235
+[Mon Jun 06 12:52:20.517957 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP Parse error:  syntax error, unexpected '}' in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php(192) : runtime-created function on line 9
+[Mon Jun 06 12:52:20.518004 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP Stack trace:
+[Mon Jun 06 12:52:20.518014 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:52:20.518019 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:52:20.518025 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:13
+[Mon Jun 06 12:52:20.518030 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   4. require_once() /home/serg/site/new_school_frontend/wp-load.php:37
+[Mon Jun 06 12:52:20.518035 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   5. require_once() /home/serg/site/new_school_frontend/wp-config.php:89
+[Mon Jun 06 12:52:20.518039 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   6. include() /home/serg/site/new_school_frontend/wp-settings.php:369
+[Mon Jun 06 12:52:20.518044 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   7. create_function() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php:192
+[Mon Jun 06 12:52:20.541847 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/serg/site/new_school_frontend/wp-includes/plugin.php on line 235
+[Mon Jun 06 12:52:20.541872 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP Stack trace:
+[Mon Jun 06 12:52:20.541880 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 12:52:20.541885 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 12:52:20.541889 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 12:52:20.541894 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   4. get_archive_template() /home/serg/site/new_school_frontend/wp-includes/template-loader.php:62
+[Mon Jun 06 12:52:20.541898 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   5. get_query_template() /home/serg/site/new_school_frontend/wp-includes/template.php:103
+[Mon Jun 06 12:52:20.541902 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   6. apply_filters() /home/serg/site/new_school_frontend/wp-includes/template.php:45
+[Mon Jun 06 12:52:20.541906 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   7. call_user_func_array:{/home/serg/site/new_school_frontend/wp-includes/plugin.php:235}() /home/serg/site/new_school_frontend/wp-includes/plugin.php:235
+[Mon Jun 06 12:52:21.868403 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP Parse error:  syntax error, unexpected '}' in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php(192) : runtime-created function on line 9, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868433 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP Stack trace:, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868447 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   1. {main}() /home/serg/site/new_school_frontend/wp-admin/admin-ajax.php:0, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868456 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   2. require_once() /home/serg/site/new_school_frontend/wp-admin/admin-ajax.php:22, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868474 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-load.php:37, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868490 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   4. require_once() /home/serg/site/new_school_frontend/wp-config.php:89, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868495 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   5. include() /home/serg/site/new_school_frontend/wp-settings.php:369, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 12:52:21.868500 2016] [:error] [pid 27270] [client 127.0.0.1:50291] PHP   6. create_function() /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/functions.php:192, referer: http://new_school_frontend.tes/wp-admin/post.php?post=7&action=edit
+[Mon Jun 06 13:06:41.740722 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP Warning:  include(/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php): failed to open stream: No such file or directory in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:41.740751 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP Stack trace:
+[Mon Jun 06 13:06:41.740762 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:41.740771 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:41.740779 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:41.740789 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP Warning:  include(): Failed opening '/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:41.740798 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP Stack trace:
+[Mon Jun 06 13:06:41.740802 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:41.740807 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:41.740811 2016] [:error] [pid 28198] [client 127.0.0.1:50371] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:48.485037 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Warning:  include(/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php): failed to open stream: No such file or directory in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:48.485071 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Stack trace:
+[Mon Jun 06 13:06:48.485081 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:48.485086 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:48.485091 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:48.485107 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Warning:  include(): Failed opening '/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:48.485111 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Stack trace:
+[Mon Jun 06 13:06:48.485116 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:48.485150 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:48.485155 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:49.248304 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Warning:  include(/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php): failed to open stream: No such file or directory in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:49.248341 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Stack trace:
+[Mon Jun 06 13:06:49.248353 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:49.248363 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:49.248370 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:49.248381 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Warning:  include(): Failed opening '/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:49.248385 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Stack trace:
+[Mon Jun 06 13:06:49.248389 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:49.248393 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:49.248397 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:49.922333 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Warning:  include(/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php): failed to open stream: No such file or directory in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:49.922362 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Stack trace:
+[Mon Jun 06 13:06:49.922374 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:49.922382 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:49.922389 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:49.922400 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Warning:  include(): Failed opening '/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:49.922404 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP Stack trace:
+[Mon Jun 06 13:06:49.922408 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:49.922412 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:49.922416 2016] [:error] [pid 27989] [client 127.0.0.1:50389] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:50.043971 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Warning:  include(/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php): failed to open stream: No such file or directory in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:50.044018 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Stack trace:
+[Mon Jun 06 13:06:50.044026 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:50.044042 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:50.044046 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:50.044057 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Warning:  include(): Failed opening '/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:50.044062 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Stack trace:
+[Mon Jun 06 13:06:50.044067 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:50.044074 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:50.044080 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:50.231025 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Warning:  include(/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php): failed to open stream: No such file or directory in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:50.231051 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Stack trace:
+[Mon Jun 06 13:06:50.231062 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:50.231069 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:50.231077 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 13:06:50.231088 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Warning:  include(): Failed opening '/home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/archive.php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/new_school_frontend/wp-includes/template-loader.php on line 75
+[Mon Jun 06 13:06:50.231095 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP Stack trace:
+[Mon Jun 06 13:06:50.231100 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0
+[Mon Jun 06 13:06:50.231104 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17
+[Mon Jun 06 13:06:50.231108 2016] [:error] [pid 28240] [client 127.0.0.1:50392] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19
+[Mon Jun 06 18:15:43.851773 2016] [:error] [pid 8403] [client 127.0.0.1:53596] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/serg/site/new_school_frontend/wp-content/themes/new_school_frontend/single-news.php on line 33, referer: http://new_school_frontend.tes/category/news/
+[Mon Jun 06 18:15:43.853666 2016] [:error] [pid 8403] [client 127.0.0.1:53596] PHP Stack trace:, referer: http://new_school_frontend.tes/category/news/
+[Mon Jun 06 18:15:43.853689 2016] [:error] [pid 8403] [client 127.0.0.1:53596] PHP   1. {main}() /home/serg/site/new_school_frontend/index.php:0, referer: http://new_school_frontend.tes/category/news/
+[Mon Jun 06 18:15:43.853701 2016] [:error] [pid 8403] [client 127.0.0.1:53596] PHP   2. require() /home/serg/site/new_school_frontend/index.php:17, referer: http://new_school_frontend.tes/category/news/
+[Mon Jun 06 18:15:43.853706 2016] [:error] [pid 8403] [client 127.0.0.1:53596] PHP   3. require_once() /home/serg/site/new_school_frontend/wp-blog-header.php:19, referer: http://new_school_frontend.tes/category/news/
+[Thu Jun 09 15:15:05.884174 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/kerama_gold/header.php on line 36, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884225 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP Stack trace:, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884241 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884253 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884262 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884270 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884276 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/kerama_gold/index.php:15, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884281 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884287 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884292 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884672 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/kerama_gold/header.php on line 55, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884681 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP Stack trace:, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884687 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884692 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884697 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884702 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884718 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/kerama_gold/index.php:15, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884725 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884739 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 15:15:05.884744 2016] [:error] [pid 17376] [client 127.0.0.1:50101] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853882 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 23, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853924 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP Stack trace:, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853932 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853939 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853948 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853955 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853963 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/page.php:15, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853971 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853978 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:28.853985 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/wp-admin/themes.php
+[Thu Jun 09 16:19:29.441602 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 23, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441672 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP Stack trace:, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441687 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441696 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441704 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441713 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441722 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/404.php:10, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441730 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441739 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.441760 2016] [:error] [pid 19748] [client 127.0.0.1:50705] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.511925 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 23, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.511965 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP Stack trace:, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.511978 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.511988 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.511996 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.512004 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.512014 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/404.php:10, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.512023 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.512033 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.512042 2016] [:error] [pid 19770] [client 127.0.0.1:50704] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521279 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 23, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521315 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP Stack trace:, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521326 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521334 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521342 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521349 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521356 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/404.php:10, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521363 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521370 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.521377 2016] [:error] [pid 19722] [client 127.0.0.1:50709] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538005 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 23, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538148 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP Stack trace:, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538197 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538228 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538245 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538260 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538269 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/404.php:10, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538280 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538290 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.538298 2016] [:error] [pid 19643] [client 127.0.0.1:50708] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620133 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP Warning:  Invalid argument supplied for foreach() in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 23, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620167 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP Stack trace:, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620178 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620187 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620195 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620203 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620210 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/404.php:10, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620215 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620219 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/
+[Thu Jun 09 16:19:29.620225 2016] [:error] [pid 19246] [client 127.0.0.1:50706] PHP   8. require_once() /home/serg/site/moreshow/wp-includes/template.php:572, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385515 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/serg/site/moreshow/wp-content/themes/moreshow/header.php on line 53, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385558 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP Stack trace:, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385580 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385603 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385613 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385621 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   4. include() /home/serg/site/moreshow/wp-includes/template-loader.php:75, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385628 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   5. get_header() /home/serg/site/moreshow/wp-content/themes/moreshow/page.php:15, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385637 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   6. locate_template() /home/serg/site/moreshow/wp-includes/general-template.php:45, referer: http://moreshow.tes/
+[Thu Jun 09 16:30:51.385644 2016] [:error] [pid 19748] [client 127.0.0.1:50858] PHP   7. load_template() /home/serg/site/moreshow/wp-includes/template.php:531, referer: http://moreshow.tes/
+[Thu Jun 09 17:33:11.183120 2016] [:error] [pid 22505] [client 127.0.0.1:51516] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/serg/site/moreshow/wp-content/themes/moreshow/archive.php on line 23, referer: http://moreshow.tes/our_work/
+[Thu Jun 09 17:33:11.183150 2016] [:error] [pid 22505] [client 127.0.0.1:51516] PHP Stack trace:, referer: http://moreshow.tes/our_work/
+[Thu Jun 09 17:33:11.183171 2016] [:error] [pid 22505] [client 127.0.0.1:51516] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/our_work/
+[Thu Jun 09 17:33:11.183179 2016] [:error] [pid 22505] [client 127.0.0.1:51516] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/our_work/
+[Thu Jun 09 17:33:11.183189 2016] [:error] [pid 22505] [client 127.0.0.1:51516] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/our_work/
+[Thu Jun 09 17:54:03.207102 2016] [:error] [pid 23167] [client 127.0.0.1:51889] PHP Parse error:  syntax error, unexpected end of file in /home/serg/site/moreshow/wp-content/themes/moreshow/single.php on line 115, referer: http://moreshow.tes/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d1%80%d1%82/
+[Thu Jun 09 17:54:03.207135 2016] [:error] [pid 23167] [client 127.0.0.1:51889] PHP Stack trace:, referer: http://moreshow.tes/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d1%80%d1%82/
+[Thu Jun 09 17:54:03.207159 2016] [:error] [pid 23167] [client 127.0.0.1:51889] PHP   1. {main}() /home/serg/site/moreshow/index.php:0, referer: http://moreshow.tes/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d1%80%d1%82/
+[Thu Jun 09 17:54:03.207169 2016] [:error] [pid 23167] [client 127.0.0.1:51889] PHP   2. require() /home/serg/site/moreshow/index.php:17, referer: http://moreshow.tes/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d1%80%d1%82/
+[Thu Jun 09 17:54:03.207178 2016] [:error] [pid 23167] [client 127.0.0.1:51889] PHP   3. require_once() /home/serg/site/moreshow/wp-blog-header.php:19, referer: http://moreshow.tes/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%82%d0%be%d1%80%d1%82/

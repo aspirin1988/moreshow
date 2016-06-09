@@ -1,0 +1,1 @@
+UPDATE pp_gallery_data set name='slider_item',alt='',description='' WHERE id = '18'
