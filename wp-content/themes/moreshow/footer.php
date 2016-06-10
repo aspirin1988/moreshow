@@ -25,5 +25,7 @@
 <script src="<?php bloginfo('template_directory') ?>/public/js/components/slideshow.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/public/js/components/lightbox.min.js"></script>
 <?php wp_footer() ?>
+<?=get_field('google',4)?>
+<?=get_field('yandex',4)?>
 </body>
 </html>
