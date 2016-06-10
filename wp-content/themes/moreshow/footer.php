@@ -23,6 +23,7 @@
 <script src="<?php bloginfo('template_directory') ?>/public/js/core/dropdown.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/public/js/components/slider.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/public/js/components/slideshow.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/public/js/components/lightbox.min.js"></script>
 <?php wp_footer() ?>
 </body>
 </html>

@@ -49,6 +49,7 @@ get_header(); ?>
 
 					<div class="uk-slidenav-position uk-hidden-small">
 						<ul class="uk-slideshow">
+							<li><img src="<?=get_the_post_thumbnail_url()?>"></li>
 							<?php $gallery=pp_gallery_get();
 							foreach ($gallery as $value ):
 							?>
@@ -63,9 +64,10 @@ get_header(); ?>
 					<div id="slider" class="uk-slidenav-position" data-uk-slider="{center:true}">
 						<div class="uk-slider-container">
 							<ul class="uk-slider uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2">
+								<li data-uk-slideshow-item="<?=0?>"><img src="<?=get_the_post_thumbnail_url()?>"></li>
 								<?php foreach ($gallery as $key => $value ):
 								?>
-								<li data-uk-slideshow-item="<?=$key?>">
+								<li data-uk-slideshow-item="<?=$key+1?>">
 									<img src="<?=$value->url?>">
 								</li>
 								<?php endforeach; ?>
