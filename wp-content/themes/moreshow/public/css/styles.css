@@ -79,7 +79,7 @@ li.active > a {
   .uk-navbar .uk-navbar-nav > li:hover > a,
   .uk-navbar .uk-navbar-nav > li > a:focus {
     background: transparent;
-    color: #de0f09; }
+    color: #62d808; }
   .uk-navbar .uk-navbar-nav > li + li::before {
     content: "|";
     color: white;
@@ -115,7 +115,7 @@ li.active > a {
       font-size: 20px; }
     .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:focus,
     .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:hover {
-      background: #de0f09; }
+      background: #62d808; }
 
 ul.uk-nav-sub {
   padding-left: 25px;
