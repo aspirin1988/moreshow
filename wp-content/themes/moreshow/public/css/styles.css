@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: inherit; }
   a:hover {
-    color: #de0f09;
+    color: #62d808;
     text-decoration: none; }
 
 ul {
@@ -62,8 +62,8 @@ li.active > a {
   font-size: 20px;
   line-height: 15px; }
   .header-and-breadcrumbs .uk-breadcrumb a:hover {
-    color: #de0f09;
-    border-bottom: 1px #de0f09 solid; }
+    color: #62d808;
+    border-bottom: 1px #62d808 solid; }
 
 /* КОНЕЦ общие стили */
 /* НАЧАЛО навбар перебиваем стили */
@@ -253,7 +253,7 @@ body.services {
     .photos-and-captions {
       border-left: 1px solid white; } }
   .photos-and-captions a:hover p {
-    color: #de0f09;
+    color: #62d808;
     font-weight: bold; }
   .photos-and-captions img {
     width: 100%;
