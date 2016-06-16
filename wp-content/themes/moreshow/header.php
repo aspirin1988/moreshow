@@ -25,6 +25,35 @@ $obj=get_queried_object()?>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/public/css/components/slidenav.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/public/css/components/slideshow.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/public/css/styles.css">
+	<style>
+		a :hover {
+			 color: <?=get_field('hover_color',4)?>;
+		}
+		.uk-navbar .uk-navbar-nav > li.uk-open > a, .uk-navbar .uk-navbar-nav > li:hover > a, .uk-navbar .uk-navbar-nav > li > a:focus{
+			background: transparent;
+			color: <?=get_field('hover_color',4)?>;
+		}
+		a:hover{
+			color: <?=get_field('hover_color',4)?>;
+		}
+		.header-and-breadcrumbs .uk-breadcrumb a:hover{
+			color: <?=get_field('hover_color',4)?>;
+			border-bottom: 1px <?=get_field('hover_color',4)?> solid;
+		}
+
+		.sub-services-list li a:hover {
+			color: <?=get_field('hover_color',4)?>;
+		}
+
+		.photos-and-captions a:hover p{
+			color: <?=get_field('hover_color',4)?>;
+		}
+
+		.uk-navbar .uk-dropdown .uk-nav-navbar > li > a:focus, .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:hover
+		{
+			background: <?=get_field('hover_color',4)?>;
+		}
+	</style>
 </head>
 
 <?php $bg=get_field('bg-image'); if (!$bg){$bg=get_field('bg-image',4);} ?>
