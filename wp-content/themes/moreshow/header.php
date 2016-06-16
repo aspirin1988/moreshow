@@ -26,33 +26,52 @@ $obj=get_queried_object()?>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/public/css/components/slideshow.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/public/css/styles.css">
 	<style>
+
+		<?php if (get_field('hover_color',4)): $hover_color =get_field('hover_color',4); ?>
 		a :hover {
-			 color: <?=get_field('hover_color',4)?>;
+			 color: <?=$hover_color?>;
 		}
 		.uk-navbar .uk-navbar-nav > li.uk-open > a, .uk-navbar .uk-navbar-nav > li:hover > a, .uk-navbar .uk-navbar-nav > li > a:focus{
 			background: transparent;
-			color: <?=get_field('hover_color',4)?>;
+			color: <?=$hover_color?>;
 		}
 		a:hover{
-			color: <?=get_field('hover_color',4)?>;
+			color: <?=$hover_color?>;
 		}
 		.header-and-breadcrumbs .uk-breadcrumb a:hover{
-			color: <?=get_field('hover_color',4)?>;
-			border-bottom: 1px <?=get_field('hover_color',4)?> solid;
+			color: <?=$hover_color?>;
+			border-bottom: 1px <?=$hover_color?> solid;
 		}
-
 		.sub-services-list li a:hover {
-			color: <?=get_field('hover_color',4)?>;
+			color: <?=$hover_color?>;
 		}
-
 		.photos-and-captions a:hover p{
-			color: <?=get_field('hover_color',4)?>;
+			color: <?=$hover_color?>;
 		}
-
 		.uk-navbar .uk-dropdown .uk-nav-navbar > li > a:focus, .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:hover
 		{
-			background: <?=get_field('hover_color',4)?>;
+			background: <?=$hover_color?>;
 		}
+		<?php endif; ?>
+
+		<?php if (get_field('main_color',4)): $main_color=get_field('main_color',4);?>
+
+		h1, h2, h3, h4, h5, h6 {
+			color: <?=$main_color?>;
+		}
+		.uk-navbar .uk-navbar-nav > li > a{
+			color: <?=$main_color?>;
+		}
+		body{
+			color: <?=$main_color?>;
+		}
+
+		.header-and-breadcrumbs .uk-breadcrumb a {
+			border-bottom: 1px <?=$main_color?>; solid;
+		}
+
+		<?php endif; ?>
+
 	</style>
 </head>
 
