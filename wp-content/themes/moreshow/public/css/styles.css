@@ -31,8 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: inherit; }
   a:hover {
-    color: #62d808;
-    text-decoration: none; }
+    color: inherit;
+    text-decoration: underline; }
+
+.circle-background {
+  background-color: rgba(124, 0, 124, 0.5);
+  border-radius: 50%; }
 
 ul {
   list-style: none;
@@ -58,12 +62,23 @@ li.active > a {
 .header-and-breadcrumbs .uk-breadcrumb li {
   font-size: 20px; }
 .header-and-breadcrumbs .uk-breadcrumb a {
-  border-bottom: 1px white solid;
   font-size: 20px;
   line-height: 15px; }
   .header-and-breadcrumbs .uk-breadcrumb a:hover {
-    color: #62d808;
-    border-bottom: 1px #62d808 solid; }
+    color: #6c0071;
+    border-bottom: 1px #6c0071 solid; }
+
+.semi-transparent-background {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  margin: 25px 50px;
+  padding-bottom: 30px;
+  color: #6c0071;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 1px 1px rgba(255, 255, 255, 0.5); }
+  .semi-transparent-background h1, .semi-transparent-background h2, .semi-transparent-background h3, .semi-transparent-background h4, .semi-transparent-background h5, .semi-transparent-background h6, .semi-transparent-background a {
+    color: #6c0071;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 1px 1px rgba(255, 255, 255, 0.5); }
 
 /* КОНЕЦ общие стили */
 /* НАЧАЛО навбар перебиваем стили */
@@ -74,12 +89,15 @@ li.active > a {
   .uk-navbar .uk-navbar-nav > li > a {
     font-size: 20px;
     color: white;
+    text-shadow: 0 0 5px black, 0 0 10px black;
     font-family: "Bebas Neue", sans-serif; }
+    .uk-navbar .uk-navbar-nav > li > a:hover {
+      text-decoration: underline; }
   .uk-navbar .uk-navbar-nav > li.uk-open > a,
   .uk-navbar .uk-navbar-nav > li:hover > a,
   .uk-navbar .uk-navbar-nav > li > a:focus {
     background: transparent;
-    color: #62d808; }
+    color: white; }
   .uk-navbar .uk-navbar-nav > li + li::before {
     content: "|";
     color: white;
@@ -115,7 +133,7 @@ li.active > a {
       font-size: 20px; }
     .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:focus,
     .uk-navbar .uk-dropdown .uk-nav-navbar > li > a:hover {
-      background: #62d808; }
+      background: #6c0071; }
 
 ul.uk-nav-sub {
   padding-left: 25px;
@@ -148,7 +166,8 @@ header {
       max-width: 195px; }
     header .logo-and-slogan-col p.slogan {
       padding: 0 20px;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      text-shadow: 0 0 5px black, 0 0 10px black; }
       @media (max-width: 480px) {
         header .logo-and-slogan-col p.slogan {
           text-align: center; } }
@@ -165,7 +184,10 @@ header {
       margin-bottom: 0; }
       header .contacts-col p a {
         display: block;
-        position: relative; }
+        position: relative;
+        text-shadow: 0 0 5px black, 0 0 10px black; }
+        header .contacts-col p a:hover {
+          text-shadow: 0 0 5px white, 0 0 10px white; }
         header .contacts-col p a.phone-number::before {
           position: absolute;
           content: url("../img/header_icon_phone.png");
@@ -204,7 +226,8 @@ body.index {
   padding: 0 25px;
   max-width: 500px;
   font-size: 28px;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5), 0 0 5px #6c0071, 0 0 10px #6c0071; }
 
 /* КОНЕЦ большие лого и слоган */
 /* НАЧАЛО услуги на главной */
@@ -214,17 +237,39 @@ body.index {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: flex-start;
   align-self: center; }
   @media (max-width: 480px) {
     .services-on-main {
       font-size: 24px;
       align-items: center; } }
   .services-on-main a {
+    color: #6c0071;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5), 0 0 5px white, 0 0 10px white;
     width: 200px; }
+    .services-on-main a + a {
+      margin-left: 30px; }
+    @media (max-width: 1200px) {
+      .services-on-main a {
+        width: 180px; } }
     @media (max-width: 480px) {
       .services-on-main a {
         width: 150px; } }
+    .services-on-main a span {
+      width: 100%;
+      height: 200px;
+      background-color: rgba(124, 0, 124, 0.5);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      @media (max-width: 1200px) {
+        .services-on-main a span {
+          height: 180px; } }
+      @media (max-width: 480px) {
+        .services-on-main a span {
+          height: 150px; } }
 
 /* КОНЕЦ услуги на главной */
 /*----------------------
@@ -245,7 +290,7 @@ body.services {
   .sub-services-list li a {
     display: block; }
   .sub-services-list li a:hover {
-    color: #62d808; }
+    color: #6c0071; }
 
 .photos-and-captions {
   text-align: center; }
@@ -253,13 +298,18 @@ body.services {
     .photos-and-captions {
       border-left: 1px solid white; } }
   .photos-and-captions a:hover p {
-    color: #62d808;
     font-weight: bold; }
   .photos-and-captions img {
     width: 100%;
     border-radius: 10px; }
   .photos-and-captions .uk-grid > * > :last-child {
     margin-bottom: 15px; }
+
+.text-section.single p:not(.price) {
+  color: #111;
+  font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px; }
 
 /*----------------------
 ---КОНЕЦ стр.Услуги (общий обзор определённого вида услуги)---
@@ -269,6 +319,11 @@ body.services {
 -----------------------*/
 .photo-section .uk-slidenav-position {
   margin-bottom: 15px; }
+  .photo-section .uk-slidenav-position a {
+    color: #6c0071;
+    opacity: .75; }
+    .photo-section .uk-slidenav-position a:hover {
+      color: #6c0071; }
   .photo-section .uk-slidenav-position img {
     border-radius: 10px; }
   .photo-section .uk-slidenav-position .uk-slideshow {
@@ -296,13 +351,23 @@ body.our_work .text-section {
   font-size: 36px;
   padding-right: 15px;
   line-height: 1.2; }
-  body.our_work .text-section a {
-    font-size: 28px;
-    font-weight: bold; }
   @media (max-width: 767px) {
     body.our_work .text-section {
       font-size: 24px;
       text-align: center; } }
+  body.our_work .text-section span.circle-background {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; }
+    @media (max-width: 767px) {
+      body.our_work .text-section span.circle-background {
+        display: none; } }
+  body.our_work .text-section a {
+    font-size: 28px;
+    font-weight: bold; }
 body.our_work .uk-close-alt:after {
   color: black; }
 body.our_work .uk-slider a {
@@ -323,13 +388,19 @@ body.our_work .photo-slider {
         position: absolute; }
         body.our_work .photo-slider .data-uk-slider > .uk-slidenav::before {
           content: ""; }
+        body.our_work .photo-slider .data-uk-slider > .uk-slidenav.circle-background {
+          background-clip: content-box;
+          padding: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
         body.our_work .photo-slider .data-uk-slider > .uk-slidenav img {
           height: auto;
           width: auto; }
         body.our_work .photo-slider .data-uk-slider > .uk-slidenav.uk-slidenav-previous {
           left: -60px; }
         body.our_work .photo-slider .data-uk-slider > .uk-slidenav.uk-slidenav-next {
-          right: -50px; } }
+          right: -60px; } }
   @media (max-width: 960px) {
     body.our_work .photo-slider .data-uk-slider > .uk-slidenav img {
       display: none; } }
@@ -342,6 +413,16 @@ body.contacts .text-section {
   font-size: 36px;
   padding-right: 15px;
   line-height: 1.2; }
+  body.contacts .text-section span.circle-background {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; }
+    @media (max-width: 767px) {
+      body.contacts .text-section span.circle-background {
+        display: none; } }
   body.contacts .text-section a {
     font-size: 28px;
     font-weight: bold; }
@@ -369,19 +450,16 @@ body.contacts .contacts-section {
   body.contacts .contacts-section img.logo {
     max-width: 140px;
     margin-left: 5%; }
-  body.contacts .contacts-section .address::before {
-    content: url("../img/contacts/icon_location-pin.png");
-    margin-right: 13px;
-    margin-left: 5px; }
-  body.contacts .contacts-section .phone-number::before {
-    content: url("../img/contacts/icon_mobile-phone.png");
-    margin-right: 15px;
-    margin-left: 5px; }
-  body.contacts .contacts-section .email::before {
-    content: url("../img/contacts/icon_mail.png");
-    margin-right: 10px; }
-  body.contacts .contacts-section .work-time::before {
-    content: url("../img/contacts/icon_clock.png");
-    margin-right: 10px; }
+  body.contacts .contacts-section .inline-bl {
+    display: inline-block; }
+    @media (max-width: 480px) {
+      body.contacts .contacts-section .inline-bl {
+        display: none; } }
+  body.contacts .contacts-section span.circle-background {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 /*# sourceMappingURL=styles.css.map */

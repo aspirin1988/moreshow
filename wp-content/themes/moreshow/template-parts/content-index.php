@@ -10,9 +10,11 @@
 <div class="services-on-main">
 	<?php $menu=wp_get_nav_menu_items('main-menu');
 	foreach ($menu as $key=>$val) : ?>
-	<a href="<?=$val->url?>">
-		<img src="<?=get_the_post_thumbnail_url($val->ID)?>" alt="<?=$val->title?>">
-		<p><?=$val->title?></p>
+	<a href="<?= $val->url ?>">
+		<span>
+			<img src="<?= get_the_post_thumbnail_url($val->ID) ?>" alt="<?= $val->title ?>">
+		</span>
+		<p><?= $val->title ?></p>
 	</a>
 	<?php endforeach; ?>
 </div>
