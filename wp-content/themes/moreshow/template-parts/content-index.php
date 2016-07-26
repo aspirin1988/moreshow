@@ -1,5 +1,4 @@
 
-
 <div class="big-logo-and-slogan">
 	<a href="/">
 		<img src="<?=get_field('logo',4)?>" alt="Лого" class="logo">
