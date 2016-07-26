@@ -1,0 +1,6 @@
+AuthName "Input password"
+AuthType Basic
+AuthUserFile "/pub/home/login/htdocs/clousearea/.htpasswd"
+<Files *.*>
+require valid-user
+</Files>
